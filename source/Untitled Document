@@ -1,0 +1,18 @@
+#include <3ds.h>
+
+void tick(void);
+
+u16 REG_A = 0;
+u16 REG_B = 0;
+u16 REG_C = 0;
+u16 REG_X = 0;
+u16 REG_Y = 0;
+u16 REG_Z = 0;
+u16 REG_I = 0;
+u16 REG_J = 0;
+u16 REG_PC = 0;
+u16 REG_SP = 0xFFFF;
+u16 REG_EX = 0;
+u16 REG_IA = 0;
+
+u8* DCPU_Mem[0x10000];
